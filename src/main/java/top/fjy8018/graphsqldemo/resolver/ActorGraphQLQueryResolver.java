@@ -9,7 +9,7 @@ import top.fjy8018.graphsqldemo.repository.ActorEntityRepository;
 import java.util.Collection;
 
 /**
- * TODO:
+ * 演员表GraphQL查询解析器
  *
  * @author F嘉阳
  * @date 2021/11/5 16:27

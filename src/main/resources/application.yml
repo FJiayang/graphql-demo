@@ -19,4 +19,5 @@ graphql:
   tools:
     schema-location-pattern: graphql/*.graphqls
   graphiql:
+    # 开启可交互页面，用于调试
     enabled: true
