@@ -1,0 +1,8 @@
+query actorEntity($id: ID!) {
+    actorEntity(id: $id) {
+        actorId
+        firstName
+        lastName
+        lastUpdate
+    }
+}

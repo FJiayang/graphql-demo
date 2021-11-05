@@ -1,0 +1,10 @@
+type Query {
+    actorEntity(id: ID!): ActorEntity
+}
+
+type ActorEntity {
+    actorId: ID!
+    firstName: String!
+    lastName: String!
+    lastUpdate: String
+}
