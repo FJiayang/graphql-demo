@@ -1,5 +1,5 @@
 type Query {
-    actorEntity(id: ID!): ActorEntity
+    actorList: [ActorEntity]
 }
 
 type ActorEntity {
