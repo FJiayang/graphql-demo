@@ -13,12 +13,10 @@ spring:
       hibernate:
         format_sql: true
         use_sql_comments: true
-  graphql:
-    path: /graphql
-    schema:
-      locations: classpath:graphql/
-      fileExtensions: .graphqls, .gqls
-      printer:
-        enabled: true
 server:
   port: 8080
+graphql:
+  tools:
+    schema-location-pattern: graphql/*.graphqls
+  graphiql:
+    enabled: true

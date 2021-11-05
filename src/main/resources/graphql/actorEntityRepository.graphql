@@ -1,8 +1,0 @@
-query ActorEntityRepository() {
-    actorList {
-        actorId
-        firstName
-        lastName
-        lastUpdate
-    }
-}
