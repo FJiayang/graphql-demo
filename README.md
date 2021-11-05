@@ -1,19 +1,7 @@
-测试URL
-```
-http://localhost:8080/graphql
-```
+关联介绍：[GraphQL实践1——集成JPA与MySQL - F嘉阳 博客 (fjy8018.top)](https://blog.fjy8018.top/index.php/archives/274/)
 
-测试报文
-```graphql
-{
-  bookById(id: "book-2"){
-    id
-    name
-    pageCount
-    author {
-      firstName
-      lastName
-    }
-  }
-}# Write your query or mutation here
+测试URL
+
+```
+http://localhost:8080/graphiql
 ```
