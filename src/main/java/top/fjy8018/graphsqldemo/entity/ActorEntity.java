@@ -12,7 +12,7 @@ import java.sql.Timestamp;
  * 演员表实体类
  *
  * @author F嘉阳
- * @date 2021/11/5 10:34
+ * @date 2021/11/15 10:34
  */
 @Data
 @Entity
