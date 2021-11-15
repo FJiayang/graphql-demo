@@ -1,0 +1,8 @@
+query ActorEntityRepository($id: ID!) {
+    actor(id: $id) {
+        actorId
+        firstName
+        lastName
+        lastUpdate
+    }
+}
