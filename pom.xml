@@ -32,6 +32,7 @@
             <artifactId>graphql-spring-boot-starter</artifactId>
             <version>1.0.0-M3</version>
         </dependency>
+        <!--升级到Spring Boot 2.6后可以移除-->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-commons</artifactId>
@@ -139,7 +140,6 @@
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>
     </build>
 
