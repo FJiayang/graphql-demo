@@ -1,6 +1,6 @@
 type Query {
-    actor(id : ID!): ActorEntity
-    actorEntityRepository: [ActorEntity]
+    findOneActor(actorId : ID!): ActorEntity
+    actorList: [ActorEntity]
 }
 
 type ActorEntity {

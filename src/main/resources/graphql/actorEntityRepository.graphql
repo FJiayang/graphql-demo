@@ -1,5 +1,0 @@
-query {
-    actorEntityRepository {
-        actorId
-    }
-}

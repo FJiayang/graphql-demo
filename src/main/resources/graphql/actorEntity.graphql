@@ -1,8 +1,14 @@
-query ActorEntityRepository($id: ID!) {
-    actor(id: $id) {
+query findOneActor($id: ID!) {
+    findOneActor(actorId: $id) {
         actorId
         firstName
         lastName
         lastUpdate
+    }
+}
+
+query actorList {
+    actorList{
+        actorId
     }
 }
